@@ -1,0 +1,5 @@
+[INFO ] 2021-10-11 17:27:27.195 [main] Gift - REPOSITORY: Sweets getAllOperation success
+[INFO ] 2021-10-11 17:35:10.199 [main] Gift - REPOSITORY: Sweets getAllOperation success
+[INFO ] 2021-10-11 17:35:10.201 [main] Scales - Scales getAllWeight success
+[WARN ] 2021-10-11 17:45:33.171 [main] Gift - REPOSITORY: Sweets is null
+[INFO ] 2021-10-11 17:45:33.172 [main] Gift - REPOSITORY: Sweets getAllOperation success
