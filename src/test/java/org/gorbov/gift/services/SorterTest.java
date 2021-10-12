@@ -23,7 +23,7 @@ public class SorterTest {
         sweets.add(new ChocolateBar("ag", 11, 2, 3, 4));
         Gift gift = new Gift(sweets);
         //WHEN
-        Sorter.sortByWeight(gift);
+        new Sorter().sortByWeight(gift);
         //THEN
         Assert.assertEquals(11, sweets.get(0).getWeight().intValue());
         Assert.assertEquals(15, sweets.get(1).getWeight().intValue());
@@ -41,7 +41,7 @@ public class SorterTest {
         sweets.add(new ChocolateBar("ag", 11, 9, 3, 4));
         Gift gift = new Gift(sweets);
         //WHEN
-        Sorter.sortBySugar(gift);
+        new Sorter().sortBySugar(gift);
         //THEN
         Assert.assertEquals(1, sweets.get(0).getSugar().intValue());
         Assert.assertEquals(2, sweets.get(1).getSugar().intValue());
@@ -59,7 +59,7 @@ public class SorterTest {
         sweets.add(new ChocolateBar("abc", 11, 2, 3, 4));
         Gift gift = new Gift(sweets);
         //WHEN
-        Sorter.sortByFirm(gift);
+        new Sorter().sortByFirm(gift);
         //THEN
         Assert.assertEquals("ab", sweets.get(0).getFirm());
         Assert.assertEquals("abc", sweets.get(1).getFirm());

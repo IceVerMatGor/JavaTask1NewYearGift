@@ -22,7 +22,7 @@ public class SweetFinderTest {
         sweets.add(new ChocolateBar("ag", 11, 12, 3, 4));
         Gift gift = new Gift(sweets);
         //WHEN
-        int sugarInRange = SweetFinder.findSweetInRangeOfSugar(gift, 5, 7).getSugar();
+        int sugarInRange = new SweetFinder().findSweetInRangeOfSugar(gift, 5, 7).getSugar();
         //THEN
         Assert.assertEquals(6, sugarInRange);
     }

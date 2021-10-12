@@ -9,7 +9,7 @@ public class Scales {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Scales.class);
 
-    public static int getAllWeight(Gift gift) {
+    public int getAllWeight(Gift gift) {
         LOGGER.debug("getAllWeight start");
         int weight = 0;
         if (gift == null){

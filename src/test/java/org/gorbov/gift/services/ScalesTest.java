@@ -23,7 +23,7 @@ public class ScalesTest {
         Gift gift = new Gift(sweets);
 
         //WHEN
-        int allWeight = Scales.getAllWeight(gift);
+        int allWeight = new Scales().getAllWeight(gift);
 
         //THEN
         Assert.assertEquals(104, allWeight);

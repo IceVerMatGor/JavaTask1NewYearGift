@@ -9,7 +9,7 @@ public class SweetFinder {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SweetFinder.class);
 
-    public static Sweet findSweetInRangeOfSugar(Gift gift, int minSugar, int maxSugar){
+    public Sweet findSweetInRangeOfSugar(Gift gift, int minSugar, int maxSugar){
         LOGGER.debug("findSweetInRangeOfSugar start");
         if (gift == null) {
             LOGGER.warn("gift is null");

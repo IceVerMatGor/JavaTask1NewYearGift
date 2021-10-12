@@ -12,7 +12,7 @@ public class Sorter {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Sorter.class);
 
-    public static void sortByWeight(Gift gift) {
+    public void sortByWeight(Gift gift) {
         LOGGER.debug("sortByWeight start");
         if (gift == null) {
             LOGGER.warn("gift is null");
@@ -21,7 +21,7 @@ public class Sorter {
         LOGGER.info("sortByWeight completed");
     }
 
-    public static void sortBySugar(Gift gift) {
+    public void sortBySugar(Gift gift) {
         LOGGER.debug("sortBySugar start");
         if (gift == null) {
             LOGGER.warn("gift is null");
@@ -30,7 +30,7 @@ public class Sorter {
         LOGGER.info("sortBySugar completed");
     }
 
-    public static void sortByFirm(Gift gift) {
+    public void sortByFirm(Gift gift) {
         LOGGER.debug("sortByFirm start");
         if (gift == null) {
             LOGGER.warn("gift is null");
